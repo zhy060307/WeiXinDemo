@@ -94,6 +94,7 @@ public class ChangeColorIconWithTextView extends View {
         int left = (getMeasuredWidth() - iconWidth) / 2;
         int top = (getMeasuredHeight() - iconWidth - textBound.height()) / 2;
 
+        //Rect(左上角x,y坐标,右下角x,y坐标)
         iconRect = new Rect(left, top, left + iconWidth, top + iconWidth);
         Log.i("TAG", "iconRect = " + iconRect.toString());
     }
