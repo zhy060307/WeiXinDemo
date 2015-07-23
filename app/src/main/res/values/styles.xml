@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionOverflowButtonStyle">@style/weixinOverflowButtonStyle</item>
+        <item name="android:actionBarStyle">@style/actionBar</item>
+        <item name="android:itemBackground">#303537</item>
+        <item name="android:actionBarDivider">@null</item>
+    </style>
+
+
+    <style name="weixinOverflowButtonStyle" parent="android:Widget.ActionButton.Overflow">
+        <item name="android:src">@mipmap/actionbar_add_icon</item>
+    </style>
+    
+    <style name="actionBar" parent="android:Widget.ActionBar">
+        <item name="android:displayOptions">useLogo|showTitle</item>
+        <item name="android:background">#303537</item>
+        <item name="android:titleTextStyle">@style/actionTitleStyle</item>
+    </style>
+
+    <style name="actionTitleStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+
+
+
+
+
+</resources>
